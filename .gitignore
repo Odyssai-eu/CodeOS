@@ -1,0 +1,48 @@
+.DS_Store
+node_modules
+.worktrees
+.sst
+.env
+.env.local
+.idea
+.vscode
+.codex
+*~
+playground
+tmp
+dist
+ts-dist
+.turbo
+**/.serena
+.serena/
+**/.omo
+.omo/
+/result
+refs
+Session.vim
+/opencode.json
+a.out
+target
+.scripts
+.direnv/
+
+# Local dev files
+opencode-dev
+UPCOMING_CHANGELOG.md
+logs/
+*.bun-build
+tsconfig.tsbuildinfo
+.claude-memory
+
+# ── Public release boundary ──────────────────────────────────────────────
+# Internal handoffs/plans/session logs and the cluster bench harness stay on
+# the forge; wiki/ and adr/ ship.
+/graphify-out/
+/doc/HANDOFF-*.md
+/doc/NIGHT-REPORT-*.md
+/doc/PLAN-*.md
+/doc/sessions/
+/.opencode/tool/bench-*.ts
+
+# stray local file, never ships
+/index.js
